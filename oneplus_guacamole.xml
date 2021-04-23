@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <project path="device/oneplus/guacamole" name="RyanAM/android_device_oneplus_guacamole" revision="halium" />
+    <project path="device/oneplus/common" name="RyanAM/android_device_oneplus_common" revision="halium" />
+    <project path="device/oneplus/sm8150-common" name="RyanAM/android_device_oneplus_sm8150-common" revision="halium" />
+    <project path="kernel/oneplus/sm8150" name="RyanAM/android_kernel_oneplus_sm8150" revision="halium" />
+    <project path="vendor/oneplus/sm8150-common" name="AOSiP-Devices/vendor_oneplus_sm8150-common" revision="pie" />
+
+    <!-- Some dependencies needed to fix build issues. -->
+    <project path="external/puffin" name="LineageOS/android_external_puffin" groups="pdk" remote="github" />
+    <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" remote="aosp" />
+    <project path="external/turbine" name="platform/external/turbine" groups="pdk" remote="aosp" />
+    <project path="prebuilts/r8" name="platform/prebuilts/r8" groups="pdk" clone-depth="1" remote="aosp" />
+</manifest>
